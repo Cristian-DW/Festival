@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level's Festival</title>
+    <link rel="stylesheet" href="./build/css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Indie+Flower&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,400;1,500;1,700&family=Kalam:wght@300;700&family=Righteous&family=Source+Code+Pro:ital,wght@0,200;0,300;0,500;0,600;0,700;0,900;1,600;1,700;1,900&family=Zen+Dots&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Level's Festival</h1>
+            <nav class="header__nav">
+                <a href="#lineup">Line Up</a>
+                <a href="#galeria">Galería</a>
+                <a href="#boletos">Boletos</a>
+            </nav>
+        </div>
+    </header> 
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>Level's Festival</h2>
+                <p>Febrero 2023, Bonks, Itachi.</p>
+            </div>
+        </div>
+        <video autoplay muted loop>
+            <source src="./video/concierto.mp4" type="video/mp4">
+            <source src="./video/concierto.ogg" type="video/ogg">
+            <source src="./video/concierto.webm" type="video/webm"> 
+        </video>
+    </div>
+    <section class="contenedor sobre-festival">
+        <div>
+            <picture>
+                <source srcset="build/img/imagen_vocalista.webp" type="image/webp">
+                <img loading="lazy" width="500" height="350"src="src/img/imagen_vocalista.jpg"alt="imagen vocalista">
+            </picture>
+        </div>
+        <div class="contenido-festival">
+            <h2>Level's Festival</h2>
+            <p class="fecha">Febrero 2023, Bonk, Itachi.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero a voluptatum enim numquam tempora tempore corrupti velit, magni eum, sunt sed dolores cum amet molestiae adipisci. Pariatur totam sunt cupiditate!</p>
+        </div>
+    </section>
+    <section id="lineup" class="lineup">
+        <div class="lineup__one description">
+            <div class="lineup__fecha">
+                <h3 class="lineup__dia">Viernes</h3>
+                <p class="lineup__fecha"> 10 de Febrero</p>
+            </div>
+            <div class="lineup__description">
+                <h3>Artistas</h3>
+                <ul>
+                    <li>20:00:  Tiesto - sound - papanatas</li>
+                    <li>21:00:  Tiesto - sound - papanatas</li>
+                    <li>22:00:  Tiesto - sound - papanatas</li>
+                    <li>23:00:  Tiesto - sound - papanatas</li>
+                </ul>
+            </div>
+        </div>
+        <div class="lineup__two description">
+            <div class="lineup__fecha">
+                <h3 class="lineup__dia">Sabado</h3>
+                <p class="lineup__fecha"> 11 de Febrero</p>
+            </div>
+            <div class="lineup__description">
+                <h3>Artistas</h3>
+                <ul>
+                    <li>20:00:  Tiesto - sound - papanatas</li>
+                    <li>21:00:  Tiesto - sound - papanatas</li>
+                    <li>22:00:  Tiesto - sound - papanatas</li>
+                    <li>23:00:  Tiesto - sound - papanatas</li>
+                </ul>
+            </div>
+        </div>
+        <div class="lineup__three description">
+            <div class="lineup__fecha">
+                <h3 class="lineup__dia">Domingo</h3>
+                <p class="lineup__fecha"> 12 de Febrero</p>
+            </div>
+            <div class="lineup__description">
+                <h3>Artistas</h3>
+                <ul>
+                    <li>20:00:  Tiesto - sound - papanatas</li>
+                    <li>21:00:  Tiesto - sound - papanatas</li>
+                    <li>22:00:  Tiesto - sound - papanatas</li>
+                    <li>23:00:  Tiesto - sound - papanatas</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="galeria" class="galeria contenedor">
+        <h3>Galería</h3>
+        <ul class="galeria-imagenes"></ul>
+    </section>
+    <h3 class="price">Boletos</h3>
+        <div id="boletos" class="price_table">
+            <div class="price_element">
+                <p class="price_name">NORMAL</p>
+                <h3 class="price_price">INCLUYE</h3>
+                <div class="price_items">
+                    <p class="price_feactures">Acceso a una persona</p>
+                    <p class="price_feactures">Bebida y comida</p>
+                    <p class="price_feactures">Camiseta del evento</p>
+                </div>
+                <a href="#" class="price_cta">$100</a>
+            </div>
+            <div class="price_element price_element--best">
+                <p class="price_name">PLATA</p>
+                <h3 class="price_price">INCLUYE</h3>
+                <div class="price_items">
+                    <p class="price_feactures">Acceso a una personas</p>
+                    <p class="price_feactures">Bebida y comida</p>
+                    <p class="price_feactures">Camiseta del evento</p>
+                    <p class="price_feactures">Zona VIP</p>
+                </div>
+                    <a href="#" class="price_cta">$180</a>
+            </div>  
+            <div class="price_element">
+                    <p class="price_name">VIP</p>
+                    <h3 class="price_price">INCLUYE</h3>
+                <div class="price_items">
+                    <p class="price_feactures">Acceso a una personas</p>
+                    <p class="price_feactures">Bebida y comida</p>
+                    <p class="price_feactures">Camiseta del evento</p>
+                    <p class="price_feactures">Zona VIP</p>
+                    <p class="price_feactures">Foto con artistas</p>
+                </div>
+            <a href="#" class="price_cta">$300</a>
+            </div>
+        </div>
+        <footer class="footer">
+            <h4>© Level's festival | Todos los derechos reservados 2023- Hecho con pasión por Cristian Castro.</h4>
+        </footer>
+    <script src="build/JS/app.js"></script>
+    
+</body>
+</html>

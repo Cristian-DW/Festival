@@ -1,0 +1,59 @@
+@import 'variables';
+
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    font-family:$fuente_principal ;
+    font-size: 1.6rem;
+    margin: 0;
+    width: 100%;
+    background-color: black;
+    color: $blanco;
+    &.fijar-body{
+        overflow: hidden;
+    }
+    &.body-scroll{
+        padding-top: 6.1rem;
+    }
+}
+
+p{
+    font-size: 1.9rem;
+    line-height: 1.5;
+}
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+
+a{
+    text-decoration: none;
+
+}
+
+h1,h2,h3{
+    margin: 0 0 0rem 0;
+}
+h1{
+    font-size: 3.5rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+img{
+    display: block;
+    max-width: 100%;
+}

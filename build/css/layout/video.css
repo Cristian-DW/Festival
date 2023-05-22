@@ -1,0 +1,10 @@
+.video {
+  position: relative;
+}
+.video .overlay {
+  position: absolute;
+}
+.video video {
+  width: 100%;
+  height: auto;
+}

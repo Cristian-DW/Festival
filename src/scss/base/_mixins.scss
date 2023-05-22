@@ -1,0 +1,41 @@
+@mixin heading($color){
+    text-transform: uppercase;
+    font-size:2.0rem ;
+    color:$color ;
+    letter-spacing: 1px;
+}
+
+@mixin telefono {
+    @media (min-width: $telefono) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: $tablet) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (min-width: $desktop) {
+        @content;
+    }
+}
+@mixin desktopXL {
+    @media (min-width:$desktopXL) {
+        @content;
+    }
+}
+
+@mixin grid($columnas, $espaciado) {
+    display: grid;
+    grid-template-columns: repeat($columnas, 1fr);
+    gap: $espaciado;
+}
+
+@mixin resetear-lista{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+

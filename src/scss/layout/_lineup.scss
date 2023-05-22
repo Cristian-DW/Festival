@@ -1,0 +1,95 @@
+.lineup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+
+    .description{
+        @include telefono{
+            @include grid(2, 5rem);
+            padding: 5rem;
+        }
+    }
+    .lineup__one{
+        background: linear-gradient(180deg,
+        #00000030,
+        #00000030),url(/build/img/blue.webp);
+        color: $rojo;
+    }
+    .lineup__two{
+        background: linear-gradient(180deg,
+        #00000050,
+        #00000050),url(/build/img/green.webp);
+        color:$azul ;
+    }
+    
+    .lineup__three{
+        background: linear-gradient(180deg,
+        #00000070,
+        #00000070),url(/build/img/red.webp);
+        color: $dorado;
+    }
+
+    .lineup__description{
+        display: none;
+    }
+}
+
+@media (max-width: 800px){
+
+    .lineup{
+        margin: 0%;
+    }
+    .description{
+        font-size: 1em;
+        
+    }
+    .description:hover{
+        font-size: .7em;
+    }
+    .lineup__fecha{
+        h3{
+            font-size: 1em;
+            margin: 0;
+            padding: 0;
+        }
+        p{
+            font-weight: 500;
+        }
+    }
+    .lineup__description{
+        ul{
+            font-weight: 500;
+        }
+}
+}
+.lineup__fecha{
+    h3{
+        font-size: 2em;
+    }
+    p{
+        font-style: italic;
+        font-weight: 700;
+    }
+}
+
+
+.description:hover{
+    height: 30rem;
+    justify-content: center;
+    align-items: center ;
+    
+    
+    .lineup__description{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        ul{
+            list-style:none;
+            font-weight: 900;
+            font-size: 1.5em;
+        }
+    
+}
+}
