@@ -1,4 +1,4 @@
-# Festival (Landing Page para eventos)
+# Festival (Landing Page para eventos) 🌉💻
 ¡Bienvenido a Festival! Una Landing page. Esta interfaz es ideal para publicar tu proximo evento al público de una forma llamativa e intuitiva. Desarrollada con HTML, CSS y JavaScript.
 
 ## Tecnologías Utilizadas
