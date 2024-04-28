@@ -1,6 +1,6 @@
 
 .header {
-    background: linear-gradient(180deg,
+    background: linear-gradient(90deg,
     $lila,
     rgb(62, 14, 66));
     @include tablet{
@@ -8,7 +8,8 @@
             left: 0;
             top: 0;
             position: fixed;
-            width: 100%;
+            width: 100%;    
+            height: 100%;
             box-shadow: .2rem .2rem .2rem .2rem rgb(209, 194, 211);
         }
     }
